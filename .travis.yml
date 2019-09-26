@@ -1,1 +1,4 @@
 language: java
+script:
+  - cd my-app
+  - mvn clean verify --fail-at-end
